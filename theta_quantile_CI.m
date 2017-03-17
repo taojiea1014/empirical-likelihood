@@ -1,3 +1,8 @@
+%   grid search for confidence interval of quantiles
+%   x is data
+%   alpha is quantile
+%   beta is confidence level
+%   res is grid search resolution
 function [y1,y2]=theta_quantile_CI(x,alpha, beta, res)
     threshold = -0.5*ncx2inv(1-beta,1,0);
     x1 = min(x);
