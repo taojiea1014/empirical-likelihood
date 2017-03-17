@@ -1,3 +1,4 @@
+%   get threshold of test statistics 2log(T) using boostrap method 
 function y = get_boostrap_threshold(iter,x,level_alpha)
     n = length(x);
     u0 = mean(x);
