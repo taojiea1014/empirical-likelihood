@@ -1,3 +1,4 @@
+% generate mixture model data
 function y = sample()
     u = rand;
     if u < 0.5
